@@ -12,7 +12,10 @@ $ pwd
 # パッケージ最新化
 $ sudo yum update -y
 
-# インストール
+# git インストール
+$ sudo yum install git -y
+
+# ansibleインストール
 $ sudo amazon-linux-extras install -y ansible2
 
 # バージョン確認
