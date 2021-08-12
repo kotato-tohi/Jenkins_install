@@ -21,15 +21,12 @@ $ ansible --version
 ```
 
 ### git clone 
-
 ```
 $ git clone https://github.com/kotato-tohi/Jenkins_install.git
 ```
 
 ### hostsファイルの編集
-
 ```
-
 [server]
 <ターゲットノードのIPv4アドレス>
 
@@ -45,7 +42,5 @@ ansible_ssh_private_key_file=<秘密鍵のパス>
 $ ansible-playbool -i hosts playbook.yml 
 ```
 
-
 ### jenkinsにアクセス
-
 http;//<IPアドレス>:8080
