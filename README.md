@@ -1,5 +1,6 @@
 ## README
 AmazonLinux2でJenkinsをインストールするPlayBook
+Jenkinsのインストール時にdaemonizeの依存解決失敗でインストールできない
 
 
 
