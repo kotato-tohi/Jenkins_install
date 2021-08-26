@@ -1,0 +1,6 @@
+- hosts: server
+  roles:
+    - init_server
+    - init_jenkins
+    - jenkins
+    - ansible
