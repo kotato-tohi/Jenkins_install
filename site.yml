@@ -1,0 +1,2 @@
+---
+- import_playbook: installed_jenkins.yml

@@ -1,0 +1,4 @@
+- name: ansible installed check
+  yum:
+    list: ansible
+  register: ansible_installed_status

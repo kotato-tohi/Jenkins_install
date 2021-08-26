@@ -1,0 +1,2 @@
+- include: includes/check_installed_ansible.yml
+- include: includes/installed_ansible.yml

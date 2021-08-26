@@ -1,0 +1,23 @@
+---
+- name: installed git
+  yum:
+    name: git
+    state: installed
+  become: yes
+
+- name: installed wget
+  yum:
+    name: wget
+    state: installed
+  become: yes
+  
+- name: installed java
+  yum:
+    name: java
+    state: installed
+  become: yes
+
+
+- name: enabled epel repo
+  shell: amazon-linux-extras install -y epel
+  changed_when: False

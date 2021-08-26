@@ -1,0 +1,4 @@
+- name: installed ansible
+  shell: amazon-linux-extras install -y ansible2
+  when: ansible_installed_status.results | selectattr("yumstate", "match", "installed") | list | length == 0
+  become: yes
