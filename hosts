@@ -1,5 +1,5 @@
 [server]
-54.178.57.98
+3.112.204.193
 
 [server:vars]
 ansible_ssh_port=22
