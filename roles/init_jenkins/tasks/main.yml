@@ -21,3 +21,4 @@
 - name: enabled epel repo
   shell: amazon-linux-extras install -y epel
   changed_when: False
+  become: yes
